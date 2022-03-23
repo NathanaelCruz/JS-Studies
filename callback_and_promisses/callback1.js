@@ -1,4 +1,5 @@
 //Callbacks
+//Leitura de arquivo
 const fs = require("fs");
 const callback = (err, conteudo) => {
   if (err) return console.log(err);
